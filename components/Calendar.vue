@@ -1,5 +1,17 @@
 <template>
   <v-container id="calendar">
+    <v-row justify="center">
+      <v-col cols="12" md="8" lg="6">
+        <v-card>
+          <v-card-title>Calendar Legend</v-card-title>
+          <v-card-text>
+            <v-chip v-for="item in eventColors" :color="item.color" :key="item.eventType">
+                {{ item.eventType }}
+            </v-chip>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
     <v-row>
         <v-btn
           icon
@@ -65,7 +77,6 @@
         >
           <v-card
             color="grey lighten-4"
-            min-width="400px"
             flat
           >
             <v-toolbar
@@ -93,18 +104,6 @@
         </v-sheet>
       </v-col>
     </v-row>
-    <v-row justify="center">
-      <v-col cols="12" md="8" lg="6">
-        <v-card>
-          <v-card-title>Legend</v-card-title>
-          <v-card-text>
-            <v-chip v-for="item in eventColors" :color="item.color" :key="item.eventType">
-                {{ item.eventType }}
-            </v-chip>
-          </v-card-text>
-        </v-card>
-      </v-col>
-    </v-row>
   </v-container>
 </template>
 
@@ -116,7 +115,7 @@ import {default as events} from '../static/events2022.js'
       return {
         value: '2022-06-20 13:00',
         weekday: [1, 2, 3, 4, 5, 6, 0],
-        type: 'week',
+        type: 'day',
         types: ['week', 'day'],
         selectedEvent: {},
         selectedElement: null,

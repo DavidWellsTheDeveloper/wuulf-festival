@@ -21,6 +21,10 @@
                         to: '#welcome'
                     },
                     {
+                        title: 'WUULF 2022',
+                        to: '#wuulf2022'
+                    },
+                    {
                         icon: 'mdi-chart-bubble',
                         title: 'Calendar',
                         to: '#calendar'
