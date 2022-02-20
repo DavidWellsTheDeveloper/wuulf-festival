@@ -46,7 +46,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="12" md="6" align-self="center">
+      <v-col cols="12" md="6" align-self="center" :order="$vuetify.breakpoint.mdAndDown?'last':'first'">
         <v-parallax src="/1920-1080/19453092_10213417610382968_8204368204190326979_o.jpg" :height="parallaxHeight"></v-parallax>
       </v-col>
       <v-col cols="12" md="6" align-self="center">
