@@ -30,8 +30,8 @@
       <v-toolbar-title v-text="title" />
     </v-app-bar> -->
     <v-main>
-      <v-container fluid>
-        <Nuxt />
+      <v-container fluid class="appStyling px-0">
+        <Nuxt/>
       </v-container>
     </v-main>
     <v-footer
@@ -65,3 +65,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+.appStyling {
+  background: linear-gradient(to bottom, #111111, #a31b0c, #b98412)
+}
+</style>

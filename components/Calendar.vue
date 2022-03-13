@@ -1,5 +1,5 @@
 <template>
-  <v-container id="calendar">
+  <v-container id="calendar" style="background-color: black;" fluid class="p-5">
     <v-row justify="center">
       <v-col cols="12" md="8" lg="6">
         <v-card>
@@ -13,6 +13,42 @@
       </v-col>
     </v-row>
     <v-row>
+      <v-col>
+        <h4 class="text-center">Schedule Subject to Change</h4>
+      </v-col>
+    </v-row>
+    <v-row justify="center">
+      <v-col cols="11">
+        <v-select
+          v-model="type"
+          :items="types"
+          dense
+          outlined
+          hide-details
+          class="ma-2"
+          label="calendar type"
+        ></v-select>
+        <v-btn
+          outlined
+          class="mr-4"
+          color="green"
+          @click="jumpToWuulf"
+        >
+          Jump To WUULF Week
+        </v-btn>
+
+        <v-btn
+          outlined
+          class=""
+          color="green"
+          @click="setToday"
+        >
+          Today
+        </v-btn>
+      </v-col>
+    </v-row>
+    <v-row justify="center">
+      <v-col cols="11">
         <v-btn
           icon
           @click="$refs.calendar.prev()"
@@ -25,38 +61,11 @@
         >
           <v-icon>mdi-chevron-right</v-icon>
         </v-btn>
-          <p v-if="$refs.calendar">{{ $refs.calendar.title }}</p>
-    </v-row>
-    <v-row>
-      <v-select
-        v-model="type"
-        :items="types"
-        dense
-        outlined
-        hide-details
-        class="ma-2"
-        label="calendar type"
-      ></v-select>
-      <v-btn
-        outlined
-        class="mr-4"
-        color="green"
-        @click="jumpToWuulf"
-      >
-        Jump To WUULF Week
-      </v-btn>
-
-      <v-btn
-        outlined
-        class=""
-        color="green"
-        @click="setToday"
-      >
-        Today
-      </v-btn>
+        <p v-if="$refs.calendar">{{ $refs.calendar.title }}</p>
+      </v-col>
     </v-row>
     <v-row justify="center" align="center">
-      <v-col cols="12">
+      <v-col cols="11">
         <v-sheet height="850">
         <v-calendar
           ref="calendar"

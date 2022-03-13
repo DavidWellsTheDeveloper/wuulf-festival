@@ -1,5 +1,5 @@
 <template>
-    <v-card>
+    <v-card elevation="1" outlined>
         <v-card-title primary-title>
             Minister And Theme
         </v-card-title>
