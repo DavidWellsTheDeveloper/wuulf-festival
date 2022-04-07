@@ -1,5 +1,5 @@
 <template>
-    <v-card id="wuulf2022">
+    <v-card class="elevation-0" color="transparent" id="wuulf2022">
         <v-card-title primary-title>
             WUULF 2022
         </v-card-title>

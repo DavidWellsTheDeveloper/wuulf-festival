@@ -1,33 +1,12 @@
 <template>
-  <v-container id="calendar" style="background-color: black;" fluid class="p-5">
-    <v-row justify="center">
-      <v-col cols="12" md="8" lg="6">
-        <v-card>
-          <v-card-title>Calendar Legend</v-card-title>
-          <v-card-text>
-            <v-chip v-for="item in eventColors" :color="item.color" :key="item.eventType">
-                {{ item.eventType }}
-            </v-chip>
-          </v-card-text>
-        </v-card>
-      </v-col>
-    </v-row>
+  <v-container id="calendar" fluid class="p-5">
     <v-row>
       <v-col>
         <h4 class="text-center">Schedule Subject to Change</h4>
       </v-col>
     </v-row>
     <v-row justify="center">
-      <v-col cols="11">
-        <v-select
-          v-model="type"
-          :items="types"
-          dense
-          outlined
-          hide-details
-          class="ma-2"
-          label="calendar type"
-        ></v-select>
+      <v-col cols="11" lg="3">
         <v-btn
           outlined
           class="mr-4"
@@ -45,6 +24,17 @@
         >
           Today
         </v-btn>
+      </v-col>
+      <v-col cols="11" lg="8">
+        <v-select
+          v-model="type"
+          :items="types"
+          dense
+          outlined
+          hide-details
+          class="ma-2"
+          label="calendar type"
+        ></v-select>
       </v-col>
     </v-row>
     <v-row justify="center">
@@ -111,6 +101,18 @@
           </v-card>
         </v-menu>
         </v-sheet>
+      </v-col>
+    </v-row>
+    <v-row justify="center">
+      <v-col cols="12" md="8" lg="6">
+        <v-card>
+          <v-card-title>Calendar Legend</v-card-title>
+          <v-card-text>
+            <v-chip v-for="item in eventColors" :color="item.color" :key="item.eventType">
+                {{ item.eventType }}
+            </v-chip>
+          </v-card-text>
+        </v-card>
       </v-col>
     </v-row>
   </v-container>

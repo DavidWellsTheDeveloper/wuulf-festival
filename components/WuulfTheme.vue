@@ -1,5 +1,5 @@
 <template>
-    <v-card>
+    <v-card class="elevation-0" color="transparent">
         <v-card-title primary-title>
             Back To Our Roots
         </v-card-title>
@@ -13,9 +13,6 @@
             <p>
                 Getting back to our roots can mean slowing down, and appreciating who and what 
                 is here with you in the moment, or meditating on the value of the present.
-            </p>
-            <p>
-                In addition to the focus on community, we will also have the multi-talented Dee Masters lead us in a variety of improv workshops
             </p>
         </v-card-text>
     </v-card>

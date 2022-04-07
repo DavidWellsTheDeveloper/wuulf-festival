@@ -1,22 +1,24 @@
 <template>
-    <v-card elevation="1" outlined>
+    <v-card class="elevation-0" color="transparent">
         <v-card-title primary-title>
             Minister And Theme
         </v-card-title>
         <v-card-text>
             <p>
-                Our WUULF minister for 2022 will be Rev. Teri. She will be 
-                leading us in "in gathering" each morning at WUULF. In gathering 
-                is much like a typical Unitarian service, however it is always kid
-                friendly, and typically held outdoors under the big tree near the 
-                lower pavilion.
+                WUULF will not have a dedicated community minister this year. At it's 
+                core, WUULF is about the community we are building and growing after 
+                being apart for so long. Part of our theme "Back To Our Roots" is 
+                about taking ownership of WUULF and making it our own once again. 
+                We will draw on our community wisdom to help with ministry this year.
             </p>
             <p>
-                This year, in addition to Teri, Dee Masters (Teri's partner) 
-                will be leading us in a variety of improv workshops. For those of you 
-                who don't know Dee, he's led WUULF attendees in years past 
-                in improv, and it was an enormous hit. We are extremely 
-                excited to have him back again.
+                WUULF 2022 will be having rotating community members leading our in 
+                gathering worships every morning following breakfast.
+            </p>
+            <p>
+                If you are interested in leading (or coleading) a worship, please contact the board 
+                by emailing <a href = "mailto: wuulf@groups.io">wuulf@groups.io</a>. We would love your help to make WUULF 
+                amazing!
             </p>
         </v-card-text>
     </v-card>

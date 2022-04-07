@@ -37,7 +37,7 @@
     <v-footer
       app
     >
-      <span>WUULF &copy; {{ new Date().getFullYear() }}</span>
+      <span>&copy; WUULF {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
 </template>
