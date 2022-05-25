@@ -119,7 +119,7 @@
 </template>
 
 <script>
-import {default as events} from '../static/events2022.js'
+import {default as events} from '../static/activities_2022.js'
   export default {
     name: 'WuulfCalendar',
     data() {
@@ -139,11 +139,15 @@ import {default as events} from '../static/events2022.js'
           },
           {
             eventType: 'Community',
-            color: 'green'
+            color: 'green darken-1'
+          },
+          {
+            eventType: 'Early Risers',
+            color: 'pink darken-1'
           },
           {
             eventType: 'Activity',
-            color: 'orange'
+            color: 'orange accent-3'
           },
           {
             eventType: 'Ghost Ranch Activity',

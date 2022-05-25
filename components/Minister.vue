@@ -1,5 +1,5 @@
 <template>
-    <v-card class="elevation-0" color="transparent">
+    <v-card class="elevation-0" color="rgba(0,0,0,.3)">
         <v-card-title primary-title>
             Minister And Theme
         </v-card-title>

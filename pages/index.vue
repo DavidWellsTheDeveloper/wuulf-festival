@@ -1,13 +1,12 @@
 <template>
   <v-container fluid grid-list-xs class="px-0">
-    <v-row justify="center" align="center">
-      <v-col cols="12" sm="8" md="6">
-        <h1 class="my-5 text-center" id="welcome">Welcome To WUULF</h1>
-      </v-col>
-    </v-row>
     <v-row>
       <v-col>
-        <v-parallax src="/1920-1080/19453143_10213404592897539_8945399834199640570_o.jpg" :height="parallaxHeight"></v-parallax>
+        <v-parallax src="/1920-1080/19453143_10213404592897539_8945399834199640570_o.jpg" :height="parallaxHeight + 200">
+          <h1 class="my-5 text-center" id="welcome">WUULF 2022</h1>
+          <h2 class="my-5 text-center">Back To Our Roots</h2>
+          <h3 class="my-5 text-center">June 20th-26th</h3>
+        </v-parallax>
       </v-col>
     </v-row>
     <v-row>
@@ -15,11 +14,17 @@
         <v-divider></v-divider>
           <v-alert
             border="top"
-            color="green darken-3"
+            color="primary"
           >
             <h3><i>“There is no power for change greater than a community discovering what it cares about.”</i></h3> <small>-MARGARET J. WHEATLEY</small>
           </v-alert>
-        <v-divider></v-divider>
+      </v-col>
+    </v-row>
+
+    <v-divider></v-divider>
+    
+    <v-row>
+      <v-col>
         <v-card class="my-5 elevation-0" color="transparent">
           <v-card-title primary-title>
             The Western Unitarian Universalist Life Festival
@@ -45,6 +50,14 @@
       </v-col>
     </v-row>
     <v-row>
+      <v-col cols="12" xl="9" lg="8">
+        <AboutWuulf></AboutWuulf>
+      </v-col>
+      <v-col cols="12" lg="4" xl="3">
+        <BoardMembers :members="board"></BoardMembers>
+      </v-col>
+    </v-row>
+    <v-row>
       <v-col cols="12" md="6" align-self="center">
         <Wuulf2022></Wuulf2022>
       </v-col>
@@ -65,7 +78,7 @@
         <Minister></Minister>
       </v-col>
       <v-col cols="12" md="6" align-self="center">
-        <v-parallax src="/1920-1080/47a3dd07b3127ccef2e15196d3a100000013100azswldq5znmwpbz4e.jpg"></v-parallax>
+        <v-parallax src="/1920-1080/47a3dd07b3127ccef2e15196d3a100000013100azswldq5znmwpbz4e.jpg" :height="parallaxHeight"></v-parallax>
       </v-col>
     </v-row>
     <v-row>
@@ -88,14 +101,44 @@ import Registration from '~/components/Registration.vue'
 export default {
   components: { Registration },
   name: 'IndexPage',
+  data() {
+    return {
+      board: [
+        {
+          name: "Ariel Stokes",
+          position: "Director"
+        },
+        {
+          name: "Sarah Weed",
+          position: "Ghost Ranch and Beyond"
+        },
+        {
+          name: "Chris Johnson",
+          position: "Treasurer"
+        },
+        {
+          name: "Cindy Fesgen",
+          position: "Youth Programming"
+        },
+        {
+          name: "David Wells",
+          position: "Communications"
+        },
+        {
+          name: "Gary Reiser",
+          position: "Outreach"
+        },
+      ]
+    }
+  },
   computed: {
     parallaxHeight() {
        switch (this.$vuetify.breakpoint.name) {
-        case 'xs': return '350'
-        case 'sm': return '400'
-        case 'md': return '350'
-        case 'lg': return '400'
-        case 'xl': return '450'
+        case 'xs': return 350
+        case 'sm': return 400
+        case 'md': return 350
+        case 'lg': return 500
+        case 'xl': return 550
       }
     }
   },

@@ -1,6 +1,7 @@
 export default [
+  // Monday
     {
-      name: 'Check In @ Lower Pavilion',
+      name: 'Registration @ Lower Pavilion',
       start: '2022-06-20 15:00',
       end: '2022-06-20 17:00',
       type: 'Community',
@@ -28,19 +29,20 @@ export default [
       description: 'If you haven\'t checked in yet, this is you\'re last chance. This is a required event everyone should attend. There will be fun get to know you games & information about the week.'
     },
     {
-      name: 'Music & Sing-a-long',
-      start: '2022-06-20 21:00',
-      end: '2022-06-20 22:00',
-      type: 'Activity',
-      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we\'ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'          },
-    {
       name: 'Ghost Ranch Quiet Hours Begin',
       start: '2022-06-20 22:00',
       end: '2022-06-20 23:00',
       type: 'Ghost Ranch Activity',
       description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'
     },
-
+    // Tuesday
+    {
+      name: 'Yoga As You Are @ Wisdom Tree',
+      start: '2022-06-21 6:30',
+      end: '2022-06-21 7:15',
+      type: 'Early Risers',
+      description: 'Begin your day at Ghost Ranch with a gentle yoga practice under the Wisdom Tree. Bring a yoga mat or a beach towel. All levels of experience are welcome.'
+    },
     {
       name: 'Breakfast',
       start: '2022-06-21 7:30',
@@ -69,7 +71,14 @@ export default [
       type: 'Activity',
       description: 'Geology Lecture w/ Kevin Hobbs at the Lower Pavilion.'
     },
-    
+    {
+      name: 'En Plein Air Painting',
+      start: '2022-06-21 9:00',
+      end: '2022-06-21 11:00',
+      type: 'Activity',
+      description: 'En Plein Air means painting outdoors, directly observing the painting subject. Please join a small group of jovial painters for plein air painting trips in different locations in Rio Arriba County and vicinity. Any level of painter is encouraged, beginner through advanced, and any painting medium is welcomed. The painting will be entirely self-directed (no instruction will be provided and all art supplies are BYO - bring your own - so plan accordingly.) The schedule is subject to change for weather and other considerations.'
+    },
+
     {
       name: 'Lunch',
       start: '2022-06-21 12:00',
@@ -99,18 +108,18 @@ export default [
       description: 'Visit the pool for a cool way to beat the heat after lunch. Note that kids must be with a responsible adult while at the pool.'
     },
     {
-      name: 'Talk: Eldredge, Agism',
+      name: 'Talk: Jonathan Eldredge & Heidi Miller Simms, Ageism',
       start: '2022-06-21 13:00',
       end: '2022-06-21 14:30',
       type: 'Activity',
       description: 'Ageism involves discriminating against someone because of their age. Ageism can appear in either subtle or overt forms everyday life. Most people over 50 have experienced this form of discrimination. Ageism in the workplace is illegal. It still happens despite the protections of Federal laws. Ageism hurts not only those over 50. It hurts their loved ones, their co-workers, and their workplaces. In this two-hour workshop, we will first identify the many forms of nuanced ageism. We then will review the laws intended to protect older Americans. Finally, we will cover strategies to counter these many forms of discrimination.'
     },
     {
-      name: 'Photography w/ Mark',
+      name: 'Craft: Water Colors w/ Rick Wells',
       start: '2022-06-21 14:30',
       end: '2022-06-21 16:30',
       type: 'Activity',
-      description: 'Mark will share techniques and tips for how to get the most out of a cell phone camera. A brief presentation will be followed by a short walk on grounds to practice techniques. The instructor will be available outside of this class during WUULF to review techniques and/or provide critiques of photo results.'
+      description: 'Capture the natural beauty of the Ghost Ranch!  Rick will lead a class in water color technique suitable for beginners and more experienced painters.'
     },
     {
       name: 'Social Hour',
@@ -130,21 +139,30 @@ export default [
       start: '2022-06-21 19:00',
       end: '2022-06-21 21:00',
       type: 'Community',
-      description: 'Music, games, conversation and community. Let\'s celebrate together! Wine and beer will be provided.'
+      description: 'Music, games, conversation and community. Let’s celebrate together! Wine and beer will be provided.'
     },
     {
       name: 'Music & Sing-a-long',
       start: '2022-06-21 21:00',
       end: '2022-06-21 22:00',
       type: 'Activity',
-      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we\'ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'          },
+      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we’ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'
+    },
     {
       name: 'Ghost Ranch Quiet Hours',
       start: '2022-06-21 22:00',
       end: '2022-06-21 23:00',
       type: 'Ghost Ranch Activity',
-      description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'          },
-
+      description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'
+    },
+    // Wednesday
+    {
+      name: 'Sun Salutations',
+      start: '2022-06-22 6:30',
+      end: '2022-06-22 7:15',
+      type: 'Early Risers',
+      description: 'Greet the day under the Wisdom Tree. Bring a yoga mat or a beach towel.  All levels of experience are welcome.'
+    },
     {
       name: 'Breakfast',
       start: '2022-06-22 7:30',
@@ -164,15 +182,22 @@ export default [
       start: '2022-06-22 9:00',
       end: '2022-06-22 11:00',
       type: 'Activity',
-      description: 'Tie Dying is available for all ages. Meet at the Campground Bathhouse to join.'
+      description: 'Join us for a very fun tie dye workshop. Please bring with you any 100% co􀆩on, 100% rayon or 100% silk pieces you would like to dye. These can be t-shirts, skirts, pants, scarves, sheets, underwear, socks and countless other items. Your creativity is DYEING to come out.'
     },
-    // {
-    //   name: 'Talk: Book Club',
-    //   start: '2022-06-22 10:30',
-    //   end: '2022-06-22 12:00',
-    //   type: 'Activity',
-    //   description: ''
-    // },
+    {
+      name: 'UU Wellspring w/ Jane Everham @ Agape',
+      start: '2022-06-22 9:00',
+      end: '2022-06-22 11:00',
+      type: 'Activity',
+      description: 'Description coming.'
+    },
+    {
+      name: 'En Plein Air Painting',
+      start: '2022-06-22 9:00',
+      end: '2022-06-22 11:00',
+      type: 'Activity',
+      description: 'En Plein Air means painting outdoors, directly observing the painting subject. Please join a small group of jovial painters for plein air painting trips in different locations in Rio Arriba County and vicinity. Any level of painter is encouraged, beginner through advanced, and any painting medium is welcomed. The painting will be entirely self-directed (no instruction will be provided and all art supplies are BYO - bring your own - so plan accordingly.) The schedule is subject to change for weather and other considerations.'
+    },
     {
       name: 'Hike: TBD (Pedernal?)',
       start: '2022-06-22 9:00',
@@ -202,6 +227,13 @@ export default [
       description: 'Susan and Kimberly Shamshoian-Sakamoto will teach some basic and fun Armenian line dances set to traditional music.'
     },
     {
+      name: 'Camera Phone Photography w/ Mark',
+      start: '2022-06-22 14:30',
+      end: '2022-06-22 16:30',
+      type: 'Activity',
+      description: 'Mark will share techniques and tips for how to get the most out of a cell phone camera. A brief presentation will be followed by a short walk on grounds to practice techniques. The instructor will be available outside of this class during WUULF to review techniques and/or provide critiques of photo results.'
+    },
+    {
       name: 'Swim',
       start: '2022-06-22 13:00',
       end: '2022-06-22 16:30',
@@ -209,19 +241,12 @@ export default [
       description: 'Visit the pool for a cool way to beat the heat after lunch. Note that kids must be with a responsible adult while at the pool.'
     },
     {
-      name: 'Craft: Jewelry Making w/ Peggy',
-      start: '2022-06-22 14:30',
+      name: 'Yoga Off The Floor w/ Martha Eastman @ Lower Pavilion',
+      start: '2022-06-22 15:30',
       end: '2022-06-22 16:30',
       type: 'Activity',
-      description: 'Peggy will bring supplies for jewelry making, focusing on amazing dangly earrings!  Make a pair for yourself, your mom, or a favorite WUULF friend!'
+      description: 'In this class, we\'ll explore chair-seated poses and standing poses. This class is recommended for people with arthritis, balance issues, or anyone who isn\'t able to get up off the floor easily.'
     },
-    // {
-    //   name: 'Henna under tree',
-    //   start: '2022-06-22 13:00',
-    //   end: '2022-06-22 14:30',
-    //   type: 'Activity',
-    //   description: 'Meet under the big tree for some henna.'
-    // },
     {
       name: 'Social Hour',
       start: '2022-06-22 16:30',
@@ -236,26 +261,34 @@ export default [
       description: 'Meals are provided at the Dining Hall. Please remember to bring your name tag. Dietary options available.'
     },
     {
-      name: 'Solstice Service',
+      name: 'Karaoke Night',
       start: '2022-06-22 19:00',
       end: '2022-06-22 21:00',
       type: 'Community',
-      description: 'Solstice Celebration - Join us for an inspirational multigenerational event. Celebrate the changing of the season with a musical sunset solstice ritual with chants, drumming, dancing, and other sacred rhythms shared at Echo Amphitheater, a special place inside Mother Earth. All instruments welcome but remember that you need to carry your stuff up the hill and several flights of stairs! Brawny people will be recruited as necessary to help carry those unable to make the hike. Echo Amphitheater is about a ten-minute drive from Ghost Ranch. Remember to bring your flashlights, jackets and bug repellent.'
+      description: 'Bring your best, worst, or silliest singing voices! Everyone is invited to listen, sing, and laugh as we let go of our inhibitions and let our inner musicians out.  This is a low pressure “group sing” style karaoke where all types of music and abilities are appreciated!'
     },
     {
       name: 'Music & Sing-a-long',
       start: '2022-06-22 21:00',
       end: '2022-06-22 22:00',
       type: 'Activity',
-      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we\'ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'
+      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we’ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'
     },
     {
       name: 'Ghost Ranch Quiet Hours',
       start: '2022-06-22 22:00',
       end: '2022-06-22 23:00',
       type: 'Ghost Ranch Activity',
-      description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'          },
-
+      description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'
+    },
+    // Thursday
+    {
+      name: 'Yoga As You Are @ Wisdom Tree',
+      start: '2022-06-23 6:30',
+      end: '2022-06-23 7:15',
+      type: 'Early Risers',
+      description: 'Begin your day at Ghost Ranch with a gentle yoga practice under the Wisdom Tree. Bring a yoga mat or a beach towel. All levels of experience are welcome.'
+    },
     {
       name: 'Breakfast',
       start: '2022-06-23 7:30',
@@ -278,11 +311,25 @@ export default [
       description: ''
     },
     {
-      name: 'Talk: Alison Reser, Climate Talk',
+      name: 'Talk: Alison Reser, Eco-Anxiety Support Group',
       start: '2022-06-23 9:00',
       end: '2022-06-23 11:00',
       type: 'Activity',
-      description: 'This discussion-based workshop will dive into the ever-important topic of climate change and environmental sustainability. We will cover the basics, internalize the magnitude of the impacts, and develop local action plans to create a healthy, happy future for the interdependent web of all existence. BONUS: Come learn about WUULF and Ghost Ranch\'s sustainability initiatives, and how you can participate.'
+      description: 'Are you stressed about the future of the planet? Does the constant suffering of living beings on Earth cause you grief? Are you uneasy about what you should be doing for “sustainability”? These feelings go by many names, one of which is Eco-Anxiety, and a growing number of people are feeling this way. This session will be guided by Allison Reser, with the goal of creating a safe space where we can ask questions, share pain, feel less alone, and learn from each other. If you have general questions about climate change, biodiversity, sustainability, etc, this would also be a good place to come discuss.'
+    },
+    {
+      name: 'Ghost Ranch Palio Tour',
+      start: '2022-06-23 10:00',
+      end: '2022-06-23 12:00',
+      type: 'Activity',
+      description: 'This tour focuses on Triassic fossils discovered here at Ghost Ranch, including our state fossil Ceolophysis.. Drive and then walk to the original quarry site and step back in time geologically and historically to better understand the significance of this famous dinosaur. Walking distance is 2 miles. Be prepared to walk for an hour and a half at an elevation of 6,400′. You will need sturdy shoes, a hat, water, sunscreen and a long-sleeve shirt or windbreaker. Note: Due to the elevation and dry environment, this walking tour is not suitable for those with medical conditions or fragile health.'
+    },
+    {
+      name: 'En Plein Air Painting',
+      start: '2022-06-23 9:00',
+      end: '2022-06-23 11:00',
+      type: 'Activity',
+      description: 'En Plein Air means painting outdoors, directly observing the painting subject. Please join a small group of jovial painters for plein air painting trips in different locations in Rio Arriba County and vicinity. Any level of painter is encouraged, beginner through advanced, and any painting medium is welcomed. The painting will be entirely self-directed (no instruction will be provided and all art supplies are BYO - bring your own - so plan accordingly.) The schedule is subject to change for weather and other considerations.'
     },
     {
       name: 'Lunch',
@@ -317,7 +364,14 @@ export default [
       start: '2022-06-23 14:30',
       end: '2022-06-23 16:00',
       type: 'Activity',
-      description: 'Drawing on her life as an indigenous Social Hourscientist, and as a woman, Kimmerer shows how other living beings―asters and goldenrod, strawberries and squash, salamanders, algae, and sweetgrass―teaches lessons.  The book argues that the awakening of ecological consciousness requires the acknowledgment and celebration of our reciprocal relationship.'
+      description: 'Drawing on her life as an indigenous scientist, and as a woman, Kimmerer shows how other living beings―asters and goldenrod, strawberries and squash, salamanders, algae, and sweetgrass―teaches lessons.  The book argues that the awakening of ecological consciousness requires the acknowledgment and celebration of our reciprocal relationship.'
+    },
+    {
+      name: 'En Plein Air Painting',
+      start: '2022-06-23 13:00',
+      end: '2022-06-23 16:00',
+      type: 'Activity',
+      description: 'En Plein Air means painting outdoors, directly observing the painting subject. Please join a small group of jovial painters for plein air painting trips in different locations in Rio Arriba County and vicinity. Any level of painter is encouraged, beginner through advanced, and any painting medium is welcomed. The painting will be entirely self-directed (no instruction will be provided and all art supplies are BYO - bring your own - so plan accordingly.) The schedule is subject to change for weather and other considerations.'
     },
     {
       name: 'Swim',
@@ -326,13 +380,6 @@ export default [
       type: 'Activity',
       description: 'Visit the pool for a cool way to beat the heat after lunch. Note that kids must be with a responsible adult while at the pool.'
     },
-    // {
-    //   name: 'Craft: Tie Dye',
-    //   start: '2022-06-23 13:00',
-    //   end: '2022-06-23 14:30',
-    //   type: 'Activity',
-    //   description: 'Join us for a very fun tie dye workshop. Please bring with you any 100% co􀆩on, 100% rayon or 100% silk pieces you would like to dye. These can be t-shirts, skirts, pants, scarves, sheets, underwear, socks and countless other items. Your creativity is DYEING to come out.'
-    // },
     {
       name: 'Social Hour',
       start: '2022-06-23 16:30',
@@ -347,25 +394,34 @@ export default [
       description: 'Meals are provided at the Dining Hall. Please remember to bring your name tag. Dietary options available.'
     },
     {
-      name: 'Dance Night',
+      name: 'Solstice Service',
       start: '2022-06-23 19:00',
       end: '2022-06-23 21:00',
       type: 'Community',
-      description: 'A night of folk dancing, laughter an remembrance.  No experience required! We will have a professional dancer leading us for a night of movement. This annual event is held In memory of Zip (Rich) Lee who attended WUULF many times. Our first gay wedding held at WUULF was when Rich married Matt Disbrow on Chimney Rock. Rich loved to square dance and was a member of First Unitarian Church in Denver.'
+      description: 'Solstice Celebration - Join us for an inspirational multigenerational event. Celebrate the changing of the season with a musical sunset solstice ritual with chants, drumming, dancing, and other sacred rhythms shared at Echo Amphitheater, a special place inside Mother Earth. All instruments welcome but remember that you need to carry your stuff up the hill and several flights of stairs! Brawny people will be recruited as necessary to help carry those unable to make the hike. Echo Amphitheater is about a ten-minute drive from Ghost Ranch. Remember to bring your flashlights, jackets and bug repellent.'
     },
     {
       name: 'Music & Sing-a-long',
       start: '2022-06-23 21:00',
       end: '2022-06-23 22:00',
       type: 'Activity',
-      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we\'ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'          },
+      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we’ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'
+    },
     {
       name: 'Ghost Ranch Quiet Hours',
       start: '2022-06-23 22:00',
       end: '2022-06-23 23:00',
       type: 'Ghost Ranch Activity',
-      description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'          },
-
+      description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'
+    },
+    // Friday
+    {
+      name: 'Sun Salutations',
+      start: '2022-06-24 6:30',
+      end: '2022-06-24 7:15',
+      type: 'Early Risers',
+      description: 'Greet the day under the Wisdom Tree. Bring a yoga mat or a beach towel.  All levels of experience are welcome.'
+    },
     {
       name: 'Breakfast',
       start: '2022-06-24 7:30',
@@ -381,25 +437,18 @@ export default [
       description: 'While at ghost ranch, we will hold a daily kid friendly service by the big tree which usually includes a short sermon and singing.'
     },
     {
-      name: 'Craft: Water Colors w/ Rick Wells',
+      name: 'Craft: Jewelry Making w/ Peggy',
       start: '2022-06-24 9:00',
       end: '2022-06-24 11:00',
       type: 'Activity',
-      description: 'Capture the natural beauty of the Ghost Ranch!  Rick will lead a class in water color technique suitable for beginners and more experienced painters.'
+      description: 'Peggy will bring supplies for jewelry making, focusing on amazing dangly earrings!  Make a pair for yourself, your mom, or a favorite WUULF friend!'
     },
-    // {
-    //   name: 'Offsite',
-    //   start: '2022-06-24 9:00',
-    //   end: '2022-06-24 12:00',
-    //   type: 'Activity',
-    //   description: ''
-    // },
     {
-      name: 'Open Studio w/ Sarah & Cindy',
-      start: '2022-06-24 14:30',
-      end: '2022-06-24 16:00',
+      name: 'En Plein Air Painting',
+      start: '2022-06-24 9:00',
+      end: '2022-06-24 11:00',
       type: 'Activity',
-      description: 'Bring a UFO or Work on a project you started this week.'
+      description: 'En Plein Air means painting outdoors, directly observing the painting subject. Please join a small group of jovial painters for plein air painting trips in different locations in Rio Arriba County and vicinity. Any level of painter is encouraged, beginner through advanced, and any painting medium is welcomed. The painting will be entirely self-directed (no instruction will be provided and all art supplies are BYO - bring your own - so plan accordingly.) The schedule is subject to change for weather and other considerations.'
     },
     {
       name: 'Hike: TBD',
@@ -429,13 +478,6 @@ export default [
       type: 'Activity',
       description: 'Swim at Lake Abiquiu. Note that parent supervision is required, and this is an offsite activity.'
     },
-    // {
-    //   name: 'Craft: Painting w/ Cindy',
-    //   start: '2022-06-24 13:00',
-    //   end: '2022-06-24 14:30',
-    //   type: 'Activity',
-    //   description: 'Learn to use colorful acrylic paints too create a special memory of WUULF! Join Cindy Fesgen to create underpaintings and then stencil or draw a tree, animal, or other natural shapes contrasting with the background. Appropriate for children and adults with no experience painting to those who are experienced artists. $5 fee.'
-    // },
     {
       name: 'Social Hour',
       start: '2022-06-24 16:30',
@@ -450,25 +492,34 @@ export default [
       description: 'Meals are provided at the Dining Hall. Please remember to bring your name tag. Dietary options available.'
     },
     {
-      name: 'Karaoke Night',
+      name: 'Dance Night',
       start: '2022-06-24 19:00',
       end: '2022-06-24 21:00',
       type: 'Community',
-      description: 'Bring your best, worst, or silliest singing voices! Everyone is invited to listen, sing, and laugh as we let go of our inhibitions and let our inner musicians out.  This is a low pressure “group sing” style karaoke where all types of music and abilities are appreciated!'
+      description: 'A night of folk dancing, laughter and remembrance.  No experience required! We will have a professional dancer leading us for a night of movement. This annual event is held In memory of Zip (Rich) Lee who attended WUULF many times. Our first gay wedding held at WUULF was when Rich married Matt Disbrow on Chimney Rock. Rich loved to square dance and was a member of First Unitarian Church in Denver.'
     },
     {
       name: 'Music & Sing-a-long',
       start: '2022-06-24 21:00',
       end: '2022-06-24 22:00',
       type: 'Activity',
-      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we\'ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'          },
+      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we’ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'
+    },
     {
       name: 'Ghost Ranch Quiet Hours',
       start: '2022-06-24 22:00',
       end: '2022-06-24 23:00',
       type: 'Ghost Ranch Activity',
-      description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'          },
-
+      description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'
+    },
+    // Saturday
+    {
+      name: 'Yoga As You Are @ Wisdom Tree',
+      start: '2022-06-25 6:30',
+      end: '2022-06-25 7:15',
+      type: 'Early Risers',
+      description: 'Begin your day at Ghost Ranch with a gentle yoga practice under the Wisdom Tree. Bring a yoga mat or a beach towel. All levels of experience are welcome.'
+    },
     {
       name: 'Breakfast',
       start: '2022-06-25 7:30',
@@ -498,6 +549,27 @@ export default [
       description: 'Stroll up to the Labyrinth for a quiet time of walking and meditation. Some meditative thoughts and reflections will be shared and then we will walk the Labyrinth together in silent reflection. Bring your own favorite quotes or meditation words to share.'
     },
     {
+      name: 'Drumming under the Wisdom Tree',
+      start: '2022-06-25 10:30',
+      end: '2022-06-25 12:00',
+      type: 'Activity',
+      description: 'Join in some drumming fun!  Bring your own drum or shaker or use a spare.'
+    },
+    {
+      name: 'En Plein Air Painting',
+      start: '2022-06-25 9:00',
+      end: '2022-06-25 11:00',
+      type: 'Activity',
+      description: 'En Plein Air means painting outdoors, directly observing the painting subject. Please join a small group of jovial painters for plein air painting trips in different locations in Rio Arriba County and vicinity. Any level of painter is encouraged, beginner through advanced, and any painting medium is welcomed. The painting will be entirely self-directed (no instruction will be provided and all art supplies are BYO - bring your own - so plan accordingly.) The schedule is subject to change for weather and other considerations.'
+    },
+    {
+      name: 'Lunch',
+      start: '2022-06-25 12:00',
+      end: '2022-06-25 13:00',
+      type: 'Meal',
+      description: 'Meals are provided at the Dining Hall. Please remember to bring your name tag. Dietary options available.'
+    },
+    {
       name: 'Youth Swimming',
       start: '2022-06-25 13:00',
       end: '2022-06-25 14:00',
@@ -512,13 +584,6 @@ export default [
       description: ''
     },
     {
-      name: 'Lunch',
-      start: '2022-06-25 12:00',
-      end: '2022-06-25 13:00',
-      type: 'Meal',
-      description: 'Meals are provided at the Dining Hall. Please remember to bring your name tag. Dietary options available.'
-    },
-    {
       name: 'Swim',
       start: '2022-06-25 13:00',
       end: '2022-06-25 16:30',
@@ -526,7 +591,7 @@ export default [
       description: 'Visit the pool for a cool way to beat the heat after lunch. Note that kids must be with a responsible adult while at the pool.'
     },
     {
-      name: 'Book Club: Book TBD',
+      name: 'What is WUULF: A look to the future w/ Board @ Agape',
       start: '2022-06-25 13:00',
       end: '2022-06-25 14:30',
       type: 'Activity',
@@ -565,7 +630,8 @@ export default [
       start: '2022-06-25 21:00',
       end: '2022-06-25 22:00',
       type: 'Activity',
-      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we\'ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'          },
+      description: 'Participants are invited to bring their acoustic instruments: guitars, fiddles, banjos, etc. and of course your singing voice! If you have a copy of "Rise Up Singing" (which is an awesome sing-a-long songbook) please bring it and we’ll make music in the evening before retiring at 10:00 pm (Ghost Ranch Quiet Time).'
+    },
     {
       name: 'Ghost Ranch Quiet Hours',
       start: '2022-06-25 22:00',
@@ -573,7 +639,14 @@ export default [
       type: 'Ghost Ranch Activity',
       description: 'Ghost ranch hosts other events, groups, and staff on site. Please be respectful of others, and keep evening activities at a low decibel. In addition, WUULFies (under 18) must be in their rooms by the time quiet hours begin.'
     },
-
+    // Sunday
+    {
+      name: 'Sun Salutations',
+      start: '2022-06-26 6:30',
+      end: '2022-06-26 7:15',
+      type: 'Early Risers',
+      description: 'Greet the day under the Wisdom Tree. Bring a yoga mat or a beach towel.  All levels of experience are welcome.'
+    },
     {
       name: 'Breakfast',
       start: '2022-06-26 7:30',
