@@ -1,6 +1,9 @@
 <template>
   <v-container id="calendar" fluid class="p-5">
-    <v-row>
+    <v-row align="center">
+      <iframe src="https://calendar.google.com/calendar/embed?src=ff3f7k1mpekg07ubdq3a4paaks%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0; margin: auto;" width="80%" height="600" frameborder="0" scrolling="no"></iframe>
+    </v-row>
+    <!-- <v-row>
       <v-col>
         <h4 class="text-center">Schedule Subject to Change</h4>
       </v-col>
@@ -114,7 +117,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-    </v-row>
+    </v-row> -->
   </v-container>
 </template>
 
