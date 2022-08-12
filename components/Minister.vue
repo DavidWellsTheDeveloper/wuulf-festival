@@ -1,24 +1,18 @@
 <template>
     <v-card class="elevation-0" color="rgba(0,0,0,.3)">
         <v-card-title primary-title>
-            Minister And Theme
+            Minister
         </v-card-title>
         <v-card-text>
             <p>
-                WUULF will not have a dedicated community minister this year. At it's 
-                core, WUULF is about the community we are building and growing after 
-                being apart for so long. Part of our theme "Back To Our Roots" is 
-                about taking ownership of WUULF and making it our own once again. 
-                We will draw on our community wisdom to help with ministry this year.
+                We've heard your feedback, and have decided to bring back a dedicated minister 
+                for 2023. If you know a minister who would love the WUULF community, and would 
+                us in contact with them, feel free to email the WUULF board at 
+                <a href="mailto: wuulf@groups.io">wuulf@groups.io</a> 
             </p>
             <p>
-                WUULF 2022 will be having rotating community members leading our in 
-                gathering worships every morning following breakfast.
-            </p>
-            <p>
-                If you are interested in leading (or coleading) a worship, please contact the board 
-                by emailing <a href = "mailto: wuulf@groups.io">wuulf@groups.io</a>. We would love your help to make WUULF 
-                amazing!
+                WUULF 2023 will be having our "in 
+                gathering" worships every morning following breakfast. For more details see the schedule.
             </p>
         </v-card-text>
     </v-card>
@@ -31,5 +25,10 @@
 </script>
 
 <style lang="scss" scoped>
-
+a:link {
+    color: rgb(98, 168, 192);
+}
+a:visited {
+    color: rgb(98, 168, 192);
+}
 </style>

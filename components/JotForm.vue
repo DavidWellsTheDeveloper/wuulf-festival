@@ -3,19 +3,20 @@
         <v-row justify="center">
             <v-col>
                 
-                <a
-                href="javascript:void(
-                    window.open(
-                    'https://form.jotform.com/220645832594158',
-                    'blank',
-                    'scrollbars=yes,
-                    toolbar=no,
-                    width=700,
-                    height=500'
-                    )
-                )
-                ">
-                WUULF 2022 Registration
+                
+    <a
+      href="javascript:void(
+        window.open(
+          'https://form.jotform.com/221655507991059',
+          'blank',
+          'scrollbars=yes,
+          toolbar=no,
+          width=900,
+          height=500'
+        )
+      )
+    ">
+                WUULF 2023 Registration
                 </a>
             </v-col>
         </v-row>

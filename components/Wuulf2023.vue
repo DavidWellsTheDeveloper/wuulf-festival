@@ -5,10 +5,9 @@
         </v-card-title>
         <v-card-text>
             <p>
-              It’s been 3 whole years since we have been able to join hands, sing, dance, or bask in the 
-              desert sun together. Let’s rebuild our community stronger than ever as we finally are able 
-              to hold WUULF once again. Join us June 20th-26 at Ghost Ranch in Abiquiu, New Mexico to 
-              celebrate together.
+                WUULF 2023 is approaching fast, and we're looking forward to seeing you once again in 
+                the deserts of New Mexico! Join us June 18th-25th at Ghost Ranch in Abiquiu, New Mexico 
+                to celebrate the Western Unitarian Universalist Life Festival together.
             </p>
             <p>
               The Western Unitarian Universalist Life Festival (WUULF) is an annual 7 day gathering at 

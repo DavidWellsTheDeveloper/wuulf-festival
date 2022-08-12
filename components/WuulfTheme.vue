@@ -5,14 +5,11 @@
         </v-card-title>
         <v-card-text>
             <p>
-                WUULF's theme this year will be <b>Back To Our Roots</b>. More than ever our 
-                time together should be cherished. Not only has our WUULF community been apart 
-                for nearly 3 years, but spending time together for the past 2 years has looked 
-                very different.
+                WUULF's theme is coming soon. Keep an eye out for more details about our 2023 theme.
             </p>
             <p>
-                Getting back to our roots can mean slowing down, and appreciating who and what 
-                is here with you in the moment, or meditating on the value of the present.
+                As always, we're hard at work to make WUULF an amazing experience once again. We 
+                look forward to seeing you there!
             </p>
         </v-card-text>
     </v-card>

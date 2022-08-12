@@ -3,9 +3,9 @@
     <v-row>
       <v-col>
         <v-parallax src="/1920-1080/19453143_10213404592897539_8945399834199640570_o.jpg" :height="parallaxHeight + 200">
-          <h1 class="my-5 text-center" id="welcome">WUULF 2022</h1>
-          <h2 class="my-5 text-center">Back To Our Roots</h2>
-          <h3 class="my-5 text-center">June 20th-26th</h3>
+          <h1 class="my-5 text-center" id="welcome">WUULF 2023</h1>
+          <h2 class="my-5 text-center">Theme Coming Soon</h2>
+          <h3 class="my-5 text-center">June 18th-25th</h3>
         </v-parallax>
       </v-col>
     </v-row>
@@ -59,7 +59,7 @@
     </v-row>
     <v-row>
       <v-col cols="12" md="6" align-self="center">
-        <Wuulf2022></Wuulf2022>
+        <Wuulf2023></Wuulf2023>
       </v-col>
       <v-col cols="12" md="6"  align-self="center">
         <v-parallax src="/1920-1080/19243087_10213417605702851_6951291830362793520_o.jpg" :height="parallaxHeight"></v-parallax>
@@ -105,29 +105,25 @@ export default {
     return {
       board: [
         {
-          name: "Ariel Stokes",
+          name: "Sarah Weed",
           position: "Director"
         },
         {
-          name: "Sarah Weed",
+          name: "Spencer Hachmeiser",
           position: "Ghost Ranch and Beyond"
         },
         {
-          name: "Chris Johnson",
+          name: "Gary Rieser",
           position: "Treasurer"
         },
         {
-          name: "Cindy Fesgen",
+          name: "Kiver Woodruff",
           position: "Youth Programming"
         },
         {
           name: "David Wells",
-          position: "Communications"
-        },
-        {
-          name: "Gary Reiser",
-          position: "Outreach"
-        },
+          position: "Communications & Registrar"
+        }
       ]
     }
   },
